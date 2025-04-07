@@ -1,0 +1,75 @@
+.admin-orders {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #6f4f28;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #6f4f28;
+    color: #fff;
+    font-weight: 600;
+}
+
+td {
+    background-color: #fff;
+}
+
+td select {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #6f4f28;
+    cursor: pointer;
+    background-color: #f5f5dc;
+    transition: background-color 0.3s ease;
+}
+
+td select:hover {
+    background-color: #e0e0b0;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+select:focus {
+    border-color: #8b6e44;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .admin-orders {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
